@@ -1,5 +1,5 @@
 # HBL_Parallel_Processing
-A parallel processing program based on Dask for processing URI Hurricane Boundary Layer Model's Wind outputs .
+A parallel processing program based on Dask for processing URI Hurricane Boundary Layer Model's Wind output.
 
 
 # Required Libraries
