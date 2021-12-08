@@ -4,7 +4,7 @@ A parallel processing method based on Dask for processing URI Hurricane Boundary
 
 # Required Libraries
 
-[Dask](https://dask.org/)
+- [Dask](https://dask.org/)
 
 [Numpy](https://numpy.org/)
 
