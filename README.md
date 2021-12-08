@@ -4,22 +4,13 @@ A parallel processing method based on Dask for processing URI Hurricane Boundary
 
 # Required Libraries
 
-(a) [Dask](https://dask.org/)
-
-(b) [Numpy](https://numpy.org/)
-
-(c) [xarray](http://xarray.pydata.org/en/stable/)
-
-(d) [Matplotlib](https://matplotlib.org/)
-
-(e) [Pandas](https://pandas.pydata.org/)
-
-(f) [cartopy](https://scitools.org.uk/cartopy/docs/latest/)
-
-(g) [Geocat](https://geocat.ucar.edu/)
-
-(h) [IPython](https://ipython.org/)
-
-(i) [FFmpeg](https://github.com/kkroening/ffmpeg-python)
-
-(j) [graphviz](https://graphviz.org/)
+[Dask](https://dask.org/)
+[Numpy](https://numpy.org/)
+[xarray](http://xarray.pydata.org/en/stable/)
+[Matplotlib](https://matplotlib.org/)
+[Pandas](https://pandas.pydata.org/)
+[cartopy](https://scitools.org.uk/cartopy/docs/latest/)
+[Geocat](https://geocat.ucar.edu/)
+[IPython](https://ipython.org/)
+[FFmpeg](https://github.com/kkroening/ffmpeg-python)
+[graphviz](https://graphviz.org/)
