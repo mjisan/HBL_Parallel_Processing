@@ -27,13 +27,22 @@ A parallel processing program based on Dask for processing URI Hurricane Boundar
 ## Why Parallel Processing?
 
 - A parallel post-processing program for an MPI-based Hurricane Boundary Layer Model.
-- 
+ 
 - To meet the demand of operational forecast that requires faster & efficient analysis within a limited time range for decision making. 
-- 
+
 - To take the advantage of recent advancement in High-Performance computing system.
-- 
+ 
 - Significant progress in open-source software development. 
 
+## Xarray and Dask
+
+- Xarray is a python package that is developed to work efficiently with multi-dimensional array .
+- 
+- Dask is a python-based program focused on scaling arrays i.e. Numpy, Pandas , Xarray.DataArray etc. on single CPUs or clusters.
+- 
+- Dask has simple routines i.e. Dask.Delayed which can easily parallelize any python function to run on multiple CPUs. 
+- 
+- We will be using dask.delayed and dask.array.map_blocks to process the output from HBL model. 
 
 
 # Required Libraries
