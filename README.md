@@ -37,11 +37,11 @@ A parallel processing program based on Dask for processing URI Hurricane Boundar
 ## Xarray and Dask
 
 - Xarray is a python package that is developed to work efficiently with multi-dimensional array .
-- 
+ 
 - Dask is a python-based program focused on scaling arrays i.e. Numpy, Pandas , Xarray.DataArray etc. on single CPUs or clusters.
-- 
+ 
 - Dask has simple routines i.e. Dask.Delayed which can easily parallelize any python function to run on multiple CPUs. 
-- 
+ 
 - We will be using dask.delayed and dask.array.map_blocks to process the output from HBL model. 
 
 
