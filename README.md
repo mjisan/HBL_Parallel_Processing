@@ -66,3 +66,15 @@ A parallel processing program based on Dask for processing URI Hurricane Boundar
 - [FFmpeg](https://github.com/kkroening/ffmpeg-python)
 
 - [graphviz](https://graphviz.org/)
+
+
+# How to run
+
+- two notebooks are provided:
+      - one using dask.delayed function which distribute the plotting function as well as whole datasets in to multiple CPUs. Might not be useful if the data-array is too large.
+      - another one using dask array map_blocks which creates chunks of data and distribute each chunks as well as data array and plotting function across CPUs.
+
+
+- Execute each cell; possible edits are needed in second cell depending on your compute architecture. These two notebooks are written and excecute in a SLURM cluster using 30 CPUs.
+
+- Please email me at mansur@uri.edu if you need any help!
